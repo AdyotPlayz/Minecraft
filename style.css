@@ -1,0 +1,38 @@
+body {
+     background-color: cornflowerblue;
+     text-align: center;
+}
+#welcome {
+    text-align: center;
+    background-color: crimson;
+}
+#gameplay {
+    background-color: crimson;
+}
+#development {
+    background-color: crimson;
+}
+#contacts {
+    background-color: coral;
+}
+.mine {
+    float: left;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.mine:hover {
+    font-size: 90%;
+    text-decoration: crimson;
+}
+.game {
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+}
